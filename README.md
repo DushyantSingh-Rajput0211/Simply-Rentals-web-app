@@ -24,28 +24,6 @@ A full-stack web application for managing rental listings and users — built wi
 - **HTML/CSS/JavaScript** (or React — update if needed)
 - **Service Worker** (`socialworker.js`) for offline support
 
----
-
-## 📁 Project Structure
-
-Simply-Rentals-web-app/
-│
-├── api/                    # Express backend
-│   ├── controllers/        # Route handlers
-│   ├── models/             # Mongoose schemas
-│   ├── routes/             # API routes
-│   └── utils/              # Middleware and helpers
-│
-├── client/                 # Frontend app
-│   ├── index.html
-│   ├── package.json
-│   └── …
-│
-├── socialworker.js         # Service Worker script
-├── package.json            # Backend dependencies
-└── .gitignore
-
----
 
 ## 🧪 Getting Started
 
@@ -79,11 +57,9 @@ JWT_SECRET=your_jwt_secret
 ### Scripts
 
 ## Backend
-	
  •	npm start – Launch the API server
 
 ## Frontend
-	
   •	npm run dev – Launch the client-side dev server
-	•	npm run build – Build the frontend for production
+  •	npm run build – Build the frontend for production
 
